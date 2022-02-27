@@ -1,0 +1,48 @@
+body{
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+    
+    
+}
+
+h1{
+    color: black;
+    background-color:lightpink;
+    font-family: cursive;
+}
+
+#show_sketch{
+    float:right;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 40px;
+    box-shadow: 10px 5px 5px rgb(238, 121, 213);
+    color: black;
+}
+
+canvas{
+    border: 5px dashed deeppink;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 80px;
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes example{
+    from{box-shadow: 1px 1px 38px darkviolet;}
+    to{box-shadow: 1px 1px 38px darkslateblue;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+img{
+   height: 600px;
+   width: 600px;
+}
+
